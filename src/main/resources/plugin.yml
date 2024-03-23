@@ -1,0 +1,9 @@
+name: FreezePlugin
+version: '${project.version}'
+main: de.philipp29012010.freezeplugin.FreezePlugin
+api-version: '1.20'
+commands:
+  freeze:
+    description: Freezes the Players
+    permission: op
+
