@@ -1,12 +1,16 @@
 name: FreezePlugin
-main: de.philipp29012010.freezeplugin.FreezePlugin
 version: 1.0
+main: dev.philippcmd.freezeplugin.FreezePlugin
 api-version: 1.21
 commands:
   freeze:
-    description: Freezes or unfreezes a player.
-    usage: /freeze <player> <freeze/unfreeze>
-    permission: op
+    description: Freeze or unfreeze a player
+    usage: /freeze <player> <time in sec> [freeze/unfreeze]
+    permission: freezeplugin.use
     permission-message: You do not have permission to use this command.
+permissions:
+  freezeplugin.use:
+    description: Allows the use of the freeze command.
+    default: op
 
 
